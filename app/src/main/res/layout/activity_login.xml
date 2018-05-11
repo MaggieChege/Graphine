@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="graphine.shikooh.example.com.graphineeastafrica.loginActivity">
+
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp"
+            android:background="@drawable/graphine_logo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/email"
+            android:layout_marginTop="20dp"
+            android:hint="Enter email"
+            android:drawableLeft="@drawable/member"
+            android:background="@drawable/text_layout"
+            android:inputType="textEmailAddress"
+            android:ems="10"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/lock"
+            android:background="@drawable/text_layout"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edged_layout"
+            android:text="SIGN IN"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:text="forgot Password"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+</ScrollView>

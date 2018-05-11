@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "633974874623",
+    "firebase_url": "https://graphineeastafrica-a1d0c.firebaseio.com",
+    "project_id": "graphineeastafrica-a1d0c",
+    "storage_bucket": "graphineeastafrica-a1d0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633974874623:android:07d5a2e9400d0602",
+        "android_client_info": {
+          "package_name": "graphine.shikooh.example.com.graphineeastafrica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633974874623-mq3b6goivriu44mjniqb50tb97knq7pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXWiqAPtNAeRvul9TRJ1PxR8p73z7wEwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
